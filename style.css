@@ -1,0 +1,140 @@
+html, body {
+	background-image: url("../images/google_logo.png");
+	background-repeat: no-repeat;
+	background-position: 50% 24%;
+	background-attachment: fixed;
+	margin: 0;
+	padding: 0;
+}
+div {
+	color: #565657;
+}
+form {
+	width: 580px;
+	margin: 310px auto;
+}
+form input[type="search"] {
+	width: 570px;
+	height: 30px;
+	border: solid 1px #E2E1E1;
+}
+.button {
+	background-color:#EDECEC;
+	border: solid 1px #E2E1E1;
+	font-weight: bold;
+	position: relative;
+	left: 180px;
+	height: 30px;
+	line-height: 25px;
+	margin-top:15px;
+	margin-right: 10px;
+	padding: -1px;
+}
+.googleicon {
+	position: fixed;
+	top: 0;
+	right: 90px;
+	word-spacing: 20px;
+	padding-top: 9px;
+}
+.live {
+	color: red;
+}
+p {
+	font-family: arial, sans-serif;
+	font-size: small;
+	margin-top: 35px;
+	padding-right: 5px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline;
+	margin-bottom: 10px;
+	font-family: arial, sans-serif;
+	font-size: 22px;
+
+}
+.leftL {
+	position: fixed;
+	bottom: 5px;
+	left: 35px;
+	word-spacing: 30px;
+}
+.rightR {
+	position: fixed;
+	bottom: 5px;
+	right: 35px;
+	word-spacing: 30px;
+}
+#footerbar {
+	height: 40px;
+	background: #EEEEEE;
+	position: fixed;
+	bottom: 0;
+	right: 450px;
+	width: 100%;
+	padding: 0;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	margin: 0 auto;
+}
+#header {
+	position: fixed;
+	top: 0;
+	right: 150px;
+	word-spacing: 20px;
+	padding-top: 12px;
+}
+#header li {
+	font-size: 13px;
+}
+.Sage {
+	color: #9A9E9E;
+}
+li a {
+	color: #6B6B6D;
+}
+a:link {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+form input[type="search"]:active {
+	border: 1px inset blue;
+}
+form input[type="search"]:hover {
+	border: solid 1px #A0A0A6;
+}
+#googleicon {
+	position: fixed;
+	top: 0;
+	right: 100px;
+	word-spacing: 20px;
+	padding-top: 9px;
+}
+#sageicon {
+	position: fixed;
+	top: 0;
+	right: 30px;
+	word-spacing: 20px;
+	padding-top: 14px;
+}
+#bell {
+	position: fixed;
+	top: 0;
+	right: 75px;
+	word-spacing: 20px;
+	padding-top: 14px;
+}
+#voice {
+	position: fixed;
+	right: 375px;
+	bottom: 563px;
+}
+	
